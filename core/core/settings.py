@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
 EXTERNAL_APPS = [
     "base", #base_app for U_id , Created Time, Updated Time
+    "product" #to manage products in our site
 ]
 
 INSTALLED_APPS += EXTERNAL_APPS
