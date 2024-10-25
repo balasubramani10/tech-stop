@@ -3,6 +3,7 @@ from base.models import BaseModel
 from django.utils.text import slugify
 
 
+
 class ProductManufacturer(BaseModel):
     name = models.CharField(max_length= 256, null= False, blank= False, unique= True)
     description = models.TextField(max_length= 1024, null= True, blank= True, default= " ")
